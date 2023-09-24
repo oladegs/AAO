@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="risk.css" />
+    <title>FearNoRisk</title>
+  </head>
+  <body>
+    <!-- Login and password page -->
+    <div id="login-page">
+      <h1>Login</h1>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" />
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" />
+      <button id="login-button">Login</button>
+    </div>
+
+    <!-- Overlay page -->
+    <div id="overlay">
+      <div class="overlay-content">
+        <div class="row">
+          <h2>Privacy Policy Data Risk Assessment Aid</h2>
+        </div>
+        <div class="row">
+            <div id="overlay">
+                <h2 id="modeToggle">Personal</h2>
+                <button id="toggleButton">Toggle Mode</button>
+                <!-- Other content for the overlay page -->
+              </div>
+          <table>
+            <tr>
+              <th>Name</th>
+              <th>Level of Security of Data threat</th>
+              <th>Company Conflict</th>
+              <th>Info</th>
+            </tr>
+            <hr>
+            <tr>
+              <td>Data Usage and Sharing</td>
+              <td>High</td>
+              <td class="clo ">
+                    x
+              <td>
+                <a href="your_link_here">Details</a>
+              </td>
+            
+            </tr>
+            
+            <tr>
+              <td>Purpose of  Data Collection</td>
+              <td>Medium</td>
+              <td class="check ">
+                <img src="circular_check_button_apply_checked_icon_124199.png" alt="Image Description">
+              <td>
+                <a href="your_link_here">Details</a>
+              </td>
+            </tr>
+        
+            <tr>
+              <td>Data Retention</td>
+              <td>High</td>
+              <td class="clo ">
+                x
+          <td>
+              <td>
+                <a href="your_link_here">Details</a>
+              </td>
+              
+            </tr>
+           
+            <tr>
+                <td>Security Measures</td>
+                <td>Low</td>
+                <td class="check ">
+                    <img src="circular_check_button_apply_checked_icon_124199.png" alt="Image Description">
+                  </td>
+                  
+                <td>
+                    <a href="your_link_here">Details</a>
+                  </td>
+              </tr>
+              
+          </table>
+        </div>
+        <div class="row">
+       
+          <p><b>Next Steps</b</p>
+          <p>Due to the present Company Conflict you may do one of the following:</p>
+          <p>Try accessing site again but without company sensitive data. IE non-work email or Temporary Fake User IE Sam Smith at samSmith@gmail.com</p>
+          <button id="back-button">Back to Login</button>
+        </div>
+       
+      </div>
+    </div>
+
+    <script src="risk.js"></script>
+  </body>
+</html>
