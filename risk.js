@@ -26,16 +26,3 @@ backButton.addEventListener("click", hideOverlay);
 
 // Event listener to hide the overlay page and return to the login page when the "Exit" button is clicked
 exitButton.addEventListener("click", hideOverlay);
-
-document.addEventListener("DOMContentLoaded", function () {
-  const modeToggle = document.getElementById("modeToggle");
-  const toggleButton = document.getElementById("toggleButton");
-
-  toggleButton.addEventListener("click", function () {
-    if (modeToggle.textContent === "Personal") {
-      modeToggle.textContent = "Employer";
-    } else {
-      modeToggle.textContent = "Personal";
-    }
-  });
-});
